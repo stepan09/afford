@@ -64,9 +64,6 @@
             <id>npm install</id>
             <goals>
               <goal>npm</goal>
-              <goal>chalk</goal>
-              <goal>each-async</goal>
-              <goal>indent-string</goal>
             </goals>
             <!-- optional: default phase is "generate-resources" -->
             <phase>generate-resources</phase>
