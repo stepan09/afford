@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2dd5886e-af3d-4053-a071-c98a24e54378" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/sport-app/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/Coach.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/Competition.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/Court.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/Gym.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/Organizer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/SportClub.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/SportKind.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/Sportsman.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/components/Stadium.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/coach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/competition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/court.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/gym.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/organizer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/sport-club.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/sport-kind.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/sportsman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/static/img/stadium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/Coach.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/Competition.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/Court.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/Gym.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/Organizer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/SportClub.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/SportKind.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/Sportsman.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/Stadium.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/coach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/competition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/court.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/gym.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/organizer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/sport-club.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/sport-kind.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/sportsman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/stadium.jpg" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sport$SportApplication.ic" NAME="SportApplication Coverage Results" MODIFIED="1526746754940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="name@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="name@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="name@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="name: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TypeScript File" />
+        <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>open</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sport-app/src/app/organizer/organizer.module.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/organizer/organizer-list/organizer-list.component.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/organizer/organizer-list/organizer-list.component.html" />
+        <option value="$PROJECT_DIR$/sport-app/src/search.pipe.for.things.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/search.pipe.for.things.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/search.pipe.module.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/competition/competition.service.ts" />
+        <option value="$PROJECT_DIR$/src/test/java/oli/coursework/sport/repository/CoachRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/competition/competition.module.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/competition/competition-list/competition-list.component.html" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/competition/competition-list/edit-competition-dialog.html" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/competition/competition-list/competition-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/Stadium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/Court.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/Gym.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/SportClub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/Coach.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/CoachController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/Sportsman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/Organizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/SportKind.java" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/coach/coach-list/coach-list.component.html" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/CourtController.java" />
+        <option value="b259fee5-1739-4b8b-aad3-473177e83a44/schema/name/table/sportsman.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b259fee5-1739-4b8b-aad3-473177e83a44/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/model/Competition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/OrganizerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/OrganizerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/StadiumRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/SportsmanRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/SportsmanController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/console.sql" />
+        <option value="$PROJECT_DIR$/system.properties" />
+        <option value="$PROJECT_DIR$/settings.xml" />
+        <option value="$PROJECT_DIR$/hr.bat" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/sport-kind/sport-kind/sport-kind.component.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/sport-kind/sport-kind/sport-kind.component.html" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/sport-app/src/app/material.module.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/StadiumController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/CompetitionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/CompetitionController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/sport-app/server.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sport-app/package.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/config/index.js" />
+        <option value="$PROJECT_DIR$/sport-app/config/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
+    <option name="width" value="1368" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sport" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/sport-app/node_modules/typescript/lib" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="oli.coursework.sport.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stepan\Downloads\Telegram Desktop\Нова папка\sport\src\main\resources\static" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/oli/coursework/sport" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stepan\Downloads\Telegram Desktop\Нова папка\sport" />
+      <recent name="C:\Users\stepan\Downloads\Telegram Desktop\Нова папка\sport\sport-app" />
+      <recent name="C:\Users\stepan\Downloads\Telegram Desktop\new\sport\sport-app" />
+      <recent name="$PROJECT_DIR$/sport-app/src/app" />
+      <recent name="$PROJECT_DIR$/src/main/java/oli/coursework/sport" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SportApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="hr" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="sport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\stepan\Downloads\Telegram Desktop\sport\sport" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="hr.bat" />
+      <option name="PARAMETERS" value="" />
+    </configuration>
+    <configuration name="CompetitionRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oli.coursework.sport.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="oli.coursework.sport.repository" />
+      <option name="MAIN_CLASS_NAME" value="oli.coursework.sport.repository.CompetitionRepositoryTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oli.coursework.sport.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="oli.coursework.sport.repository" />
+      <option name="MAIN_CLASS_NAME" value="oli.coursework.sport.repository.CompetitionRepositoryTest" />
+      <option name="METHOD_NAME" value="getAllFromStartDateToStartDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SportApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sport" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="oli.coursework.sport.SportApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SportApplication" />
+      <item itemvalue="JUnit.CompetitionRepositoryTest.getAllFromStartDateToStartDate" />
+      <item itemvalue="JUnit.CompetitionRepositoryTest.findAll" />
+      <item itemvalue="Batch.hr" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.hr" />
+        <item itemvalue="JUnit.CompetitionRepositoryTest.findAll" />
+        <item itemvalue="JUnit.CompetitionRepositoryTest.getAllFromStartDateToStartDate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dd5886e-af3d-4053-a071-c98a24e54378" name="Default" comment="" />
+      <created>1523007832600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523007832600</updated>
+      <workItem from="1523007834043" duration="5206000" />
+      <workItem from="1523014456040" duration="157000" />
+      <workItem from="1523027197040" duration="9289000" />
+      <workItem from="1523078366638" duration="9058000" />
+      <workItem from="1523536369067" duration="6689000" />
+      <workItem from="1523545260985" duration="929000" />
+      <workItem from="1523546229780" duration="486000" />
+      <workItem from="1523891530417" duration="117000" />
+      <workItem from="1524121082157" duration="4846000" />
+      <workItem from="1524322906861" duration="1605000" />
+      <workItem from="1524407060133" duration="1176000" />
+      <workItem from="1524504329938" duration="836000" />
+      <workItem from="1524589182169" duration="11000" />
+      <workItem from="1526732568294" duration="3815000" />
+      <workItem from="1526736426834" duration="2924000" />
+      <workItem from="1526739394264" duration="306000" />
+      <workItem from="1526739738483" duration="2496000" />
+      <workItem from="1526742840789" duration="9833000" />
+      <workItem from="1526804724225" duration="6646000" />
+      <workItem from="1526831951785" duration="1992000" />
+      <workItem from="1526893458186" duration="11989000" />
+      <workItem from="1526991425460" duration="14341000" />
+      <workItem from="1527071712163" duration="1587000" />
+      <workItem from="1527076747708" duration="3278000" />
+      <workItem from="1527139688832" duration="729000" />
+      <workItem from="1527169312237" duration="7290000" />
+      <workItem from="1527177946159" duration="1042000" />
+      <workItem from="1527179040060" duration="99000" />
+      <workItem from="1527226164959" duration="2185000" />
+      <workItem from="1527244456150" duration="7836000" />
+      <workItem from="1527278452669" duration="2782000" />
+      <workItem from="1527282730885" duration="78000" />
+      <workItem from="1527302520519" duration="3932000" />
+      <workItem from="1527331450888" duration="484000" />
+      <workItem from="1527340573995" duration="3185000" />
+      <workItem from="1527343824246" duration="803000" />
+      <workItem from="1527344716248" duration="856000" />
+      <workItem from="1527345687995" duration="7889000" />
+      <workItem from="1527401353029" duration="21039000" />
+      <workItem from="1527449018061" duration="5231000" />
+      <workItem from="1527455601920" duration="166000" />
+      <workItem from="1527486089165" duration="620000" />
+      <workItem from="1527486739307" duration="833000" />
+      <workItem from="1527572824345" duration="402000" />
+      <workItem from="1527577020413" duration="607000" />
+      <workItem from="1527609152208" duration="11459000" />
+      <workItem from="1527671084852" duration="2504000" />
+      <workItem from="1527673907976" duration="128000" />
+      <workItem from="1527674170875" duration="6395000" />
+    </task>
+    <task id="LOCAL-00001" summary="created normal coach module">
+      <created>1523040196497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523040196497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added unresolved files">
+      <created>1523046053981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523046053981</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created normal sportsman module">
+      <created>1523048825888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523048825889</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added GymController's realization">
+      <created>1523079476187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523079476187</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added CourtController's realization">
+      <created>1523080172934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523080172934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added CourtController's realization">
+      <created>1523080218457</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523080218457</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added CompetitionController's realization">
+      <created>1523080881409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523080881409</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created competition module">
+      <created>1523087490622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523087490622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created court module">
+      <created>1523540997423</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1523540997423</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created sport-kind module">
+      <created>1524124675735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1524124675736</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created sport-kind module">
+      <created>1524124748534</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1524124748534</updated>
+    </task>
+    <task id="LOCAL-00012" summary="in some objects added full CRUD +added search pipe in coach">
+      <created>1527055940823</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1527055940823</updated>
+    </task>
+    <task id="LOCAL-00013" summary="in some objects added full CRUD +added search pipe in coach">
+      <created>1527056006070</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1527056006070</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added search by name and some new queries">
+      <created>1527169431510</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527169431510</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added new queries">
+      <created>1527613811047</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527613811047</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added new queries">
+      <created>1527671664070</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1527671664070</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added new queries">
+      <created>1527671977702</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1527671977702</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added new queries">
+      <created>1527672010306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1527672010306</updated>
+    </task>
+    <task id="LOCAL-00019" summary="first commit">
+      <created>1527677639068</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1527677639068</updated>
+    </task>
+    <task id="LOCAL-00020" summary="first commit">
+      <created>1527677928515</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1527677928515</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 05m 38s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 07m 02s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 10m 14s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 11m 23s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 11m 59s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 12m 24s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 12m 42s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_getAllFromStartDateToStartDate - 2018.05.19 at 19h 13m 55s.xml">
+      <configuration name="CompetitionRepositoryTest.getAllFromStartDateToStartDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompetitionRepositoryTest_findAll - 2018.05.19 at 19h 14m 15s.xml">
+      <configuration name="CompetitionRepositoryTest.findAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="188186000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5003984" side_tool="true" weight="0.32917318" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32917318" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" weight="0.26399395" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" show_stripe_button="false" weight="0.32917318" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.27722773" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996016" weight="0.4290429" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21617162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.34158415" />
+      <window_info anchor="bottom" id="SQL Generator" order="15" weight="0.980198" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32954547" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.32917318" />
+      <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996016" weight="0.3322933" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2698908" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5003984" side_tool="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32917318" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26742426" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" show_stripe_button="false" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.27925116" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.2560606" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="first commit after reinstalling OS" />
+    <MESSAGE value="created normal coach module" />
+    <MESSAGE value="added unresolved files" />
+    <MESSAGE value="created normal sportsman module" />
+    <MESSAGE value="added GymController's realization" />
+    <MESSAGE value="added CourtController's realization" />
+    <MESSAGE value="added CompetitionController's realization" />
+    <MESSAGE value="created competition module" />
+    <MESSAGE value="created court module" />
+    <MESSAGE value="created sport-kind module" />
+    <MESSAGE value="in some objects added full CRUD +added search pipe in coach" />
+    <MESSAGE value="added search by name and some new queries" />
+    <MESSAGE value="added new queries" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/coach" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/coach_has_sportsman" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/competition" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/competition_has_court" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/competition_has_gym" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/competition_has_sportsman" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/competition_has_stadium" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/court" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/gym" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/kind_of_sport" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/organizer" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/sportsman_has_kind_of_sport" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/stadium" />
+    <entry file="file://$PROJECT_DIR$/system.properties" />
+    <entry file="file://$PROJECT_DIR$/ettings.xml" />
+    <entry file="file://$PROJECT_DIR$/hr.bat" />
+    <entry file="file://$PROJECT_DIR$/settings.xml" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/sportsman" />
+    <entry file="das://50c08fd0-585f-4acd-b2f2-fa6b5cf9046a/schema/heroku_9d8fe5da8bd293e/table/sport_club" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/CoachRepository.java" />
+    <entry file="file://$PROJECT_DIR$/sport-app/src/app/material.module.ts" />
+    <entry file="file://$PROJECT_DIR$/sport-app/src/app/sport-kind/sport-kind/sport-kind.component.ts" />
+    <entry file="file://$PROJECT_DIR$/sport-app/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/sport-app/src/app/sport-kind/sport-kind/sport-kind.component.html" />
+    <entry file="das://2d5827d9-bd0a-4710-b9e3-662f6d1e5424/schema/heroku_9d8fe5da8bd293e/table/coach">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/SportKindRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/OrganizerRepository.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2d5827d9-bd0a-4710-b9e3-662f6d1e5424/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://b259fee5-1739-4b8b-aad3-473177e83a44/schema/name/table/stadium">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/SportClubRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/SportsmanController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/StadiumRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/StadiumController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/SportsmanRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/repository/CompetitionRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/oli/coursework/sport/controller/CompetitionController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/sport-app/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sport-app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/static/js/app.876a22f54120c33d16e7.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/build/build.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/dist/static/js/app.876a22f54120c33d16e7.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sport-app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sport-app/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sport</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
