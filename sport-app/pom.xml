@@ -60,6 +60,12 @@
               <arguments>run build</arguments>
             </configuration>
           </execution>
+          <execution>
+            <id>node server.js</id>
+            <configuration>
+              <arguments>node server.js</arguments>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
     </plugins>
