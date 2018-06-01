@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1392184-12c6-4e6b-bf00-eb61bd152c84" name="Default" comment="added server.js">
-      <change beforePath="$PROJECT_DIR$/sport-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sport-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sport/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="d1392184-12c6-4e6b-bf00-eb61bd152c84" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sport/target/" />
     <ignored path="$PROJECT_DIR$/sport-app/target/" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/sport-app/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -61,7 +58,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sport-app/config/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="714">
               <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
             </state>
           </provider>
@@ -79,8 +76,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sport-app/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -188,7 +185,7 @@
               <item name="coursework" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursework" type="462c0819:PsiDirectoryNode" />
               <item name="sport-app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +288,7 @@
       <updated>1527698956261</updated>
       <workItem from="1527698963664" duration="7573000" />
       <workItem from="1527746019054" duration="4017000" />
-      <workItem from="1527777072661" duration="16655000" />
+      <workItem from="1527777072661" duration="17061000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1527746940102</created>
@@ -580,15 +577,28 @@
       <option name="project" value="LOCAL" />
       <updated>1527883090206</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="added server.js">
+      <created>1527883463959</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1527883463959</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added server.js">
+      <created>1527883633738</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1527883633738</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28245000" />
+    <option name="totallyTimeSpent" value="28651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.32673267" />
@@ -654,10 +664,10 @@
     <MESSAGE value="sport-app.pom changed" />
     <MESSAGE value="added babel-core" />
     <MESSAGE value="change port" />
-    <MESSAGE value="added server.js" />
     <MESSAGE value="changed sport-app.xml" />
     <MESSAGE value="added http-common.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="added http-common.js" />
+    <MESSAGE value="added server.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="added server.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -841,7 +851,7 @@
     <entry file="file://$PROJECT_DIR$/sport-app/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -854,13 +864,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sport/target/classes/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sport-app/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sport-app/server.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -876,10 +879,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sport-app/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sport-app/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
