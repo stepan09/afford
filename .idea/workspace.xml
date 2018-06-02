@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1392184-12c6-4e6b-bf00-eb61bd152c84" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="59" selection-start-column="59" selection-end-column="59" />
+              <caret column="64" selection-start-column="64" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -276,21 +275,7 @@
       <updated>1527698956261</updated>
       <workItem from="1527698963664" duration="7573000" />
       <workItem from="1527746019054" duration="4017000" />
-      <workItem from="1527777072661" duration="21941000" />
-    </task>
-    <task id="LOCAL-00003" summary="first commit">
-      <created>1527747761207</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1527747761207</updated>
-    </task>
-    <task id="LOCAL-00004" summary="first commit">
-      <created>1527747793058</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1527747793058</updated>
+      <workItem from="1527777072661" duration="22787000" />
     </task>
     <task id="LOCAL-00005" summary="second commit">
       <created>1527751634713</created>
@@ -621,14 +606,29 @@
       <option name="project" value="LOCAL" />
       <updated>1527925491416</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="changed Procfile">
+      <created>1527925913894</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1527925913894</updated>
+    </task>
+    <task id="LOCAL-00053" summary="changed Procfile">
+      <created>1527926131247</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1527926131247</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33531000" />
+    <option name="totallyTimeSpent" value="34377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.32673267" />
@@ -697,9 +697,9 @@
     <MESSAGE value="added http-common.js" />
     <MESSAGE value="added server.js" />
     <MESSAGE value="changed sport-app.xml" />
-    <MESSAGE value="changed Procfile" />
     <MESSAGE value="changed sport.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed sport.xml" />
+    <MESSAGE value="changed Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed Procfile" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -921,7 +921,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="59" selection-start-column="59" selection-end-column="59" />
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
         </state>
       </provider>
     </entry>
