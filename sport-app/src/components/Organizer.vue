@@ -133,7 +133,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import {AXIOS} from './http-common'
     export default {
         name: "Organizer",
       data: () => ({
@@ -151,36 +151,36 @@
       },
       methods: {
         fetchOrganizers() {
-          axios.get('http://localhost:8080/api/organizers').then((response) => {
+          AXIOS.get('http://localhost:8080/api/organizers').then((response) => {
             this.organizers = response.data;
           })
         },
         fetchCompetitions() {
-          axios.get('http://localhost:8080/api/competitions').then((response) => {
+          AXIOS.get('http://localhost:8080/api/competitions').then((response) => {
             this.competitions = response.data;
           })
         },
         addOrganizer() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/organizers', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/organizers', this.formAdd).then(() => {
             this.fetchOrganizers();
           });
           this.formAdd = {};
         },
         updateOrganizer(organizer) {
           this.showUpdateModal = false;
-          axios.put('http://localhost:8080/api/organizers/' + organizer.organizerId, this.formAdd).then(() => {
+          AXIOS.put('http://localhost:8080/api/organizers/' + organizer.organizerId, this.formAdd).then(() => {
             this.fetchOrganizers();
           });
           this.formAdd = {};
         },
         deleteOrganizer(id) {
-          axios.delete('http://localhost:8080/api/organizers/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/organizers/' + id).then(() => {
             this.fetchOrganizers();
           });
         },
         getOrganizerByCompetition(competitionId) {
-          axios.get('http://localhost:8080/api/organizers-by-competition/' + competitionId).then((response) => {
+          AXIOS.get('http://localhost:8080/api/organizers-by-competition/' + competitionId).then((response) => {
             this.organizers = response.data;
           })
         },

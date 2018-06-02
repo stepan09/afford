@@ -171,12 +171,11 @@
 </template>
 
 <script>
-  import img from '../../static/img/coach.jpg'
   import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
   import faCheck from '@fortawesome/fontawesome-free-solid/faCheck'
   import faCross from '@fortawesome/fontawesome-free-solid/faTimes'
-  import axios from 'axios'
-    export default {
+  import {AXIOS} from './http-common'
+  export default {
         name: "Stadium",
       data: () => ({
         search: '',
@@ -191,45 +190,45 @@
       },
       methods: {
         fetchStadiums() {
-          axios.get('http://localhost:8080/api/stadiums').then((response) => {
+          AXIOS.get('http://localhost:8080/api/stadiums').then((response) => {
             this.stadiums = response.data;
           });
         },
         getStadiumWithCapacityGreaterThan() {
-          axios.get('http://localhost:8080/api/stadiums-greater/' + this.capacity).then((response) => {
+          AXIOS.get('http://localhost:8080/api/stadiums-greater/' + this.capacity).then((response) => {
             this.stadiums = response.data;
           })
         },
         getStadiumWithTreadmill() {
-          axios.get('http://localhost:8080/api/stadiums-treadmill').then((response) => {
+          AXIOS.get('http://localhost:8080/api/stadiums-treadmill').then((response) => {
             this.stadiums = response.data;
           })
         },
         getStadiumOrderByCapacityDesc() {
-          axios.get('http://localhost:8080/api/stadiums-order-desc').then((response) => {
+          AXIOS.get('http://localhost:8080/api/stadiums-order-desc').then((response) => {
             this.stadiums = response.data;
           })
         },
         getStadiumOrderByCapacityAsc() {
-          axios.get('http://localhost:8080/api/stadiums-order-asc').then((response) => {
+          AXIOS.get('http://localhost:8080/api/stadiums-order-asc').then((response) => {
             this.stadiums = response.data;
           })
         },
         deleteStadium(id) {
-          axios.delete('http://localhost:8080/api/stadiums/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/stadiums/' + id).then(() => {
             this.fetchStadiums();
           });
         },
         addStadium() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/stadiums/', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/stadiums/', this.formAdd).then(() => {
             this.fetchStadiums();
           });
           this.formAdd = {};
         },
         updateStadium(stadium) {
           this.showUpdateModal = false;
-          axios.put('http://localhost:8080/api/stadiums/' + stadium.stadiumId, stadium).then(() => {
+          AXIOS.put('http://localhost:8080/api/stadiums/' + stadium.stadiumId, stadium).then(() => {
             this.fetchStadiums();
           });
           this.formAdd = {};

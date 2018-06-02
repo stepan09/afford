@@ -125,7 +125,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import {AXIOS} from './http-common'
     export default {
         name: "Court",
       data: () => ({
@@ -140,18 +140,18 @@
       },
       methods: {
         fetchCourts() {
-          axios.get('http://localhost:8080/api/courts').then((response) => {
+          AXIOS.get('http://localhost:8080/api/courts').then((response) => {
             this.courts = response.data;
           });
         },
         deleteCourt(id) {
-          axios.delete('http://localhost:8080/api/courts/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/courts/' + id).then(() => {
             this.fetchCourts();
           });
         },
         addCourt() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/courts/', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/courts/', this.formAdd).then(() => {
             this.fetchCourts();
           });
           this.formAdd = {};
@@ -159,7 +159,7 @@
         updateCourt(court) {
           this.showUpdateModal = false;
           console.log(this.formAdd);
-          axios.put('http://localhost:8080/api/courts/' + court.courtId, court).then(() => {
+          AXIOS.put('http://localhost:8080/api/courts/' + court.courtId, court).then(() => {
             this.fetchCourts();
           });
           this.formAdd = {};

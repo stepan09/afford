@@ -211,7 +211,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import {AXIOS} from './http-common'
     export default {
       name: "Sportsman",
       data: () => ({
@@ -235,60 +235,60 @@
       },
       methods: {
         fetchSportsmen() {
-          axios.get('http://localhost:8080/api/sportsmen').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sportsmen').then((response) => {
             this.sportsmen = response.data;
           })
         },
         fetchSportClubs() {
-          axios.get('http://localhost:8080/api/sport-clubs').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sport-clubs').then((response) => {
             this.sportClubs = response.data;
           })
         },
         fetchSportKinds() {
-          axios.get('http://localhost:8080/api/sport-kinds').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sport-kinds').then((response) => {
             this.sportKinds = response.data;
           })
         },
         fetchCoaches() {
-          axios.get('http://localhost:8080/api/coaches').then((response) => {
+          AXIOS.get('http://localhost:8080/api/coaches').then((response) => {
             this.coaches = response.data;
           });
         },
         getSportsmenByCoachId(coachId) {
-          axios.get('http://localhost:8080/api/sportsmen-by-coach/' + coachId).then((response) => {
+          AXIOS.get('http://localhost:8080/api/sportsmen-by-coach/' + coachId).then((response) => {
             this.sportsmen = response.data;
           });
         },
         getSportsmenBySportKindId(sportKindId) {
-          axios.get('http://localhost:8080/api/sportsmen-by-sport-kind/' + sportKindId).then((response) => {
+          AXIOS.get('http://localhost:8080/api/sportsmen-by-sport-kind/' + sportKindId).then((response) => {
             this.sportsmen = response.data;
           });
         },
         getSportsmenBySportClubId(sportClubId) {
-          axios.get('http://localhost:8080/api/sportsmen-by-sport-club/' + sportClubId).then((response) => {
+          AXIOS.get('http://localhost:8080/api/sportsmen-by-sport-club/' + sportClubId).then((response) => {
             this.sportsmen = response.data;
           });
         },
         getOrderSportsmen() {
-          axios.get('http://localhost:8080/api/sportsmen-order').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sportsmen-order').then((response) => {
             this.sportsmen = response.data;
           })
         },
         addSportsman() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/sportsmen/', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/sportsmen/', this.formAdd).then(() => {
             this.fetchSportsmen();
           });
           this.formAdd = {};
         },
         deleteSportsman(id) {
-          axios.delete('http://localhost:8080/api/sportsmen/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/sportsmen/' + id).then(() => {
             this.fetchSportsmen();
           });
         },
         updateSportsman(sportsman) {
           this.showUpdateModal = false;
-          axios.put('http://localhost:8080/api/sportsmen/' + sportsman.sportsmanId, sportsman).then(() => {
+          AXIOS.put('http://localhost:8080/api/sportsmen/' + sportsman.sportsmanId, sportsman).then(() => {
             fetchSportsmen();
           });
           this.formAdd = {};

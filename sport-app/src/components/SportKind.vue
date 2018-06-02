@@ -93,7 +93,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import {AXIOS} from './http-common'
     export default {
         name: "SportKind",
       data: () => ({
@@ -108,18 +108,18 @@
       },
       methods: {
         fetchSportKinds() {
-          axios.get('http://localhost:8080/api/sport-kinds').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sport-kinds').then((response) => {
             this.sportKinds = response.data;
           });
         },
         deleteSportKind(id) {
-          axios.delete('http://localhost:8080/api/sport-kinds/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/sport-kinds/' + id).then(() => {
             this.fetchSportKinds();
           });
         },
         addSportKind() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/sport-kinds/', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/sport-kinds/', this.formAdd).then(() => {
             this.fetchSportKinds();
           });
           this.formAdd = {};
@@ -127,7 +127,7 @@
         updateSportKind(sportKind) {
           this.showUpdateModal = false;
           console.log(this.formAdd);
-          axios.put('http://localhost:8080/api/sport-kinds/' + sportKind.id, sportKind).then(() => {
+          AXIOS.put('http://localhost:8080/api/sport-kinds/' + sportKind.id, sportKind).then(() => {
             this.fetchSportKinds();
           });
           this.formAdd = {};

@@ -104,7 +104,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import {AXIOS} from './http-common'
     export default {
         name: "SportClub",
       data: () => ({
@@ -119,25 +119,25 @@
       },
       methods: {
         fetchSportClubs() {
-          axios.get('http://localhost:8080/api/sport-clubs').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sport-clubs').then((response) => {
             this.sportClubs = response.data;
           });
         },
         deleteSportClub(id) {
-          axios.delete('http://localhost:8080/api/sport-clubs/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/sport-clubs/' + id).then(() => {
             this.fetchSportClubs();
           });
         },
         addSportClub() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/sport-clubs/', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/sport-clubs/', this.formAdd).then(() => {
             this.fetchSportClubs();
           });
           this.formAdd = {};
         },
         updateSportClub(sportClub) {
           this.showUpdateModal = false;
-          axios.put('http://localhost:8080/api/sport-clubs/' + sportClub.sportClubId, sportClub).then(() => {
+          AXIOS.put('http://localhost:8080/api/sport-clubs/' + sportClub.sportClubId, sportClub).then(() => {
             this.fetchSportClubs();
           });
           this.formAdd = {};

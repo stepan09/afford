@@ -114,7 +114,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import {AXIOS} from './http-common'
     export default {
         name: "Gym",
       data: () => ({
@@ -129,26 +129,26 @@
       },
       methods: {
         fetchGyms() {
-          axios.get('http://localhost:8080/api/gyms').then((response) => {
+          AXIOS.get('http://localhost:8080/api/gyms').then((response) => {
             this.gyms = response.data;
           })
         },
         addGym() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/gyms/', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/gyms/', this.formAdd).then(() => {
             this.fetchGyms();
           });
           this.formAdd = {};
         },
         updateGym(gym) {
           this.showUpdateModal = false;
-          axios.put('http://localhost:8080/api/gyms/' + gym.gymId, gym).then(() => {
+          AXIOS.put('http://localhost:8080/api/gyms/' + gym.gymId, gym).then(() => {
             this.fetchGyms();
           });
           this.formAdd = {};
         },
         deleteGym(id) {
-          axios.delete('http://localhost:8080/api/gyms/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/gyms/' + id).then(() => {
             this.fetchGyms();
           });
         },

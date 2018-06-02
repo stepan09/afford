@@ -371,7 +371,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import {AXIOS} from './http-common'
     export default {
         name: "Competition",
       data: () => ({
@@ -408,56 +408,56 @@
       },
       methods: {
         fetchCompetitions() {
-          axios.get('http://localhost:8080/api/competitions').then((response) => {
+          AXIOS.get('http://localhost:8080/api/competitions').then((response) => {
             this.competitions = response.data;
           })
         },
         fetchOrganizers() {
-          axios.get('http://localhost:8080/api/organizers').then((response) => {
+          AXIOS.get('http://localhost:8080/api/organizers').then((response) => {
             this.organizers = response.data;
           })
         },
         fetchSportKinds() {
-          axios.get('http://localhost:8080/api/sport-kinds').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sport-kinds').then((response) => {
             this.sportKinds = response.data;
           })
         },
         fetchStadiums() {
-          axios.get('http://localhost:8080/api/stadiums').then((response) => {
+          AXIOS.get('http://localhost:8080/api/stadiums').then((response) => {
             this.stadiums = response.data;
           })
         },
         fetchCourts() {
-          axios.get('http://localhost:8080/api/courts').then((response) => {
+          AXIOS.get('http://localhost:8080/api/courts').then((response) => {
             this.courts = response.data;
           })
         },
         fetchGyms() {
-          axios.get('http://localhost:8080/api/gyms').then((response) => {
+          AXIOS.get('http://localhost:8080/api/gyms').then((response) => {
             this.gyms = response.data;
           })
         },
         fetchSportsmen() {
-          axios.get('http://localhost:8080/api/sportsmen').then((response) => {
+          AXIOS.get('http://localhost:8080/api/sportsmen').then((response) => {
             this.sportsmen = response.data;
           })
         },
         addCompetition() {
           this.showModal = false;
-          axios.post('http://localhost:8080/api/competitions/', this.formAdd).then(() => {
+          AXIOS.post('http://localhost:8080/api/competitions/', this.formAdd).then(() => {
             this.fetchCompetitions();
           });
           this.formAdd = {};
         },
         updateCompetition(competition) {
           this.showUpdateModal = false;
-          axios.put('http://localhost:8080/api/competitions/' + competition.competitionId, competition).then(() => {
+          AXIOS.put('http://localhost:8080/api/competitions/' + competition.competitionId, competition).then(() => {
             this.fetchCompetitions();
           });
           this.formAdd = {};
         },
         deleteCompetition(id) {
-          axios.delete('http://localhost:8080/api/competitions/' + id).then(() => {
+          AXIOS.delete('http://localhost:8080/api/competitions/' + id).then(() => {
             this.fetchCompetitions();
           })
         },
@@ -466,32 +466,32 @@
           this.formAdd = coach;
         },
         getCompetitionsByDates(firstDate, secondDate) {
-          axios.get('http://localhost:8080/api/competitions/' + firstDate + '/' + secondDate).then((response) => {
+          AXIOS.get('http://localhost:8080/api/competitions/' + firstDate + '/' + secondDate).then((response) => {
             this.competitions = response.data;
           });
         },
         getCompetitionByOrganizerId(organizerId) {
-          axios.get('http://localhost:8080/api/competitions-by-organizer/' + organizerId).then((response) =>{
+          AXIOS.get('http://localhost:8080/api/competitions-by-organizer/' + organizerId).then((response) =>{
             this.competitions = response.data;
           });
         },
         getCompetitionBySportKindId(sportKindId) {
-          axios.get('http://localhost:8080/api/competitions-by-sport-kind/' + sportKindId).then((response) =>{
+          AXIOS.get('http://localhost:8080/api/competitions-by-sport-kind/' + sportKindId).then((response) =>{
             this.competitions = response.data;
           });
         },
         getCompetitionsBySportKindAndGym(sportKindId, gymId) {
-          axios.get('http://localhost:8080/api/competitions-by-sport-kind-gym/' + sportKindId + '/' + gymId).then((response) =>{
+          AXIOS.get('http://localhost:8080/api/competitions-by-sport-kind-gym/' + sportKindId + '/' + gymId).then((response) =>{
             this.competitions = response.data;
           });
         },
         getCompetitionsBySportKindAndStadium(sportKindId, stadiumId) {
-          axios.get('http://localhost:8080/api/competitions-by-sport-kind-stadium/' + sportKindId + '/' + stadiumId).then((response) =>{
+          AXIOS.get('http://localhost:8080/api/competitions-by-sport-kind-stadium/' + sportKindId + '/' + stadiumId).then((response) =>{
             this.competitions = response.data;
           });
         },
         getCompetitionsBySportKindAndCourt(sportKindId, courtId) {
-          axios.get('http://localhost:8080/api/competitions-by-sport-kind-court/' + sportKindId + '/' + courtId).then((response) =>{
+          AXIOS.get('http://localhost:8080/api/competitions-by-sport-kind-court/' + sportKindId + '/' + courtId).then((response) =>{
             this.competitions = response.data;
           });
         }
